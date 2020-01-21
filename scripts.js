@@ -371,7 +371,7 @@ body.onkeydown = function(e) {
 
   document.querySelector('.item-key .main-description').innerHTML = newKeyText;
   document.querySelector('.item-location .main-description').innerHTML = newLocationText;
-  document.querySelector('.item-which .main-description').innerHTML = e.which || '';
+  document.querySelector('.item-keyCode .main-description').innerHTML = e.keyCode || '';
   document.querySelector('.item-code .main-description').innerHTML = newCodeText;
 };
 
